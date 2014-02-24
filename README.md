@@ -53,6 +53,6 @@ Why does the spec fail??? I am having difficulty wrapping my head around this.
 
 If you comment out the first spec, the _second spec passes_.
 
-Moreover, after commenting out the first spec, if you change the value of the `hash` variable to a non-hash value like `false`, the _spec fails_.
+Moreover, after commenting out the first spec, if you change the value of the `hash` variable to a non-hash value like `false`, the _spec fails_ -- which is expected behaviour.
 
-What am I missing?
+What am I missing? Is this a bug?
